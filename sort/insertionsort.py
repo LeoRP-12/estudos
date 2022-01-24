@@ -1,6 +1,6 @@
 from typing import List
 
-def sortNumbers(toSort: List, mode='n') -> List : 
+def sortNumbers(toSort: List, mode='n') : 
     try:
         assert mode=='n' or mode=='r' 
         if mode=="n":
